@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
-    color:#f9faf8;
+   
 }
 
 .top-bar ul {
@@ -20,33 +20,61 @@ body {
 
 .top-bar li {
     list-style: none;
-}
+   }
 
-.header-logo {
+#header-logo {
     font-size: 24px; 
     font-weight:bold;
+    color:#f9faf8;
+    font-weight: 1000;
 }
 
+.right {
+color:#e5e7eb;
+font-size: 18px;
+}
 .hero-section {
-display: flex;
-justify-content: center;
-
-margin:auto;
-background-color:#1f2937;
+    background-color: #1f2937;
+    padding:0;
+    padding: 100px 0 100px 0;
 }
 
 .hero-container {
-    width:50%;
-}
-.hero-text {
-flex:1;
+display: flex;
+justify-content: center;
+width:80%;
+margin:auto;
+gap:30px;
 }
 
+.hero-text {
+  width:37%;
+}
+
+.hero-text h1 {
+    color:#f9faf8;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.hero-text p {
+    color:#e5e7eb;
+}
+
+.hero-text button {
+      all: unset;
+    cursor: pointer;
+    background-color: #3882f6;
+    padding:10px 20px 10px 20px;
+    border-radius: 10px;
+    color:#e5e7eb;
+    font-weight: bold;
+}
 .hero-image {
-width:500px;
-height:200px;
-background-color: gray;
-flex:1;
+    width:200px;
+    width:50%;
+    height:200px;
+    background-color:gray;      
 }
 
 .random-information {
@@ -63,4 +91,8 @@ flex:1;
     width:200px;
     height: 200px;
     background-color: red;
+}
+
+footer {
+    background-color: #1f2937;
 }
