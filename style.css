@@ -89,21 +89,126 @@ gap:30px;
 }
 
 .random-information {
-
+margin-top:55px;
+margin-bottom: 55px;
 }
 
+.random-information h1 {
+font-size:36px;
+color:#1f2937;
+text-align:center;
+}
 
 .boxes {
-    display: flex;justify-content: space-around;
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap:30px;
+   gap:50px;
+    
+}
+
+.box-and-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   width:166px;
+}
+
+.box-and-text span {
+    padding-top:7px;
+    text-align: center;
+     color:#575757;
 }
 .box {
-    width:200px;
-    height: 200px;
-    background-color: red;
+    width:166px;
+    height:166px;
+    border:1px ;
+    border:5px solid #3882f6;
+    border-radius:15px;
+}
+
+.quote-section {
+    background-color:#e5e7eb;   
+    padding: 50px 0 50px 0; 
+   }
+
+   .quote-container {
+    width:60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   }
+   .quote-container h1{
+       font-size: 36px;
+       font-weight:lighter;   
+       font-style: italic;
+       color:#1f2937;
+       padding:0;
+       margin:0;
+   }
+
+   .quote-container span {
+    color:#1f2937;
+    font-size:22px;
+    font-weight: 600;
+    align-self: flex-end;
+   }
+
+.call-action {   
+   padding:100px;
+}
+
+.call-action-container {
+    background-color: #3882f6;
+    padding:60px;
+    padding:45px 60px 45px 60px;
+    border-radius:9px;
+    width:71%;
+    margin:auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-around;
+}
+
+.call-action h2 {
+    color:#f9faf8;
+    letter-spacing: 1px;
+    margin:0;
+}
+
+.call-action span {
+    color:#e5e7eb;
+    font-size:18px;
+    line-height: 22px;
+}
+
+
+
+.call-action-btn button{
+    all: unset;
+    cursor: pointer;
+    background-color: #3882f6;
+    padding:5px 35px 5px 35px;
+    border-radius: 8px;
+    color:#e5e7eb;
+    font-weight: bold;
+    letter-spacing:1px;
+    border-color: #f9faf8;
+    border:2px solid #f9faf8;
+    color:#f9faf8;
+    letter-spacing: 1px;
+    font-size:18px;
 }
 
 footer {
     background-color: #1f2937;
+    color:#f9faf8;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+footer span {
+    font-size:18px;
 }
